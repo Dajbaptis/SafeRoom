@@ -1,8 +1,9 @@
 # SafeRoom
 This project is a device that measures temperature, humidity, and CO levels in a given room. These measurements will be displayed on a LCD screen so that the user can 
 have easy access. If CO levels get past a certain threshold (>80ppm) an alarm will sound off via a speaker to capture the user's attention. There will also be suggestions
-on the LCD to bring CO levels back to a safe value.
-<img width="643" img height="780" src= "https://user-images.githubusercontent.com/59968396/206750629-c91dae94-1710-48b4-ace8-732bd4002a81.jpg">
+on the LCD to bring CO levels back to a safe value. Click the image to see the SafeRoom demoed.
+
+[<img width="643" img height="780" src= "https://user-images.githubusercontent.com/59968396/206750629-c91dae94-1710-48b4-ace8-732bd4002a81.jpg">](https://www.youtube.com/watch?v=F8GIlipGR64)
 
 # Block Diagram
 
