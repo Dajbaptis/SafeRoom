@@ -8,3 +8,13 @@ on the LCD to bring CO levels back to a safe value.
 
 
 <img width="643" alt="Screen Shot 2022-12-08 at 11 08 02 PM" src="https://user-images.githubusercontent.com/120158161/206628431-186bf9c8-1bf0-4ee6-9707-2c9baa91ac02.png">
+
+
+# Wiring Diagram
+
+| mbed          | uLCD Header   | uLCD cable |          
+| ------------- | ------------- | ---------- |
+| 5V = VU       | 5V            | 5V         | 
+| TX = P28      | RX            | TX         |
+| RX = P27      | TX            | RX         |
+| P30           | Reset         | Reset      |
