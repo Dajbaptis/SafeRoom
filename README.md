@@ -28,3 +28,23 @@ Mbed with HTU21D-F
 | GND  | GND  |
 | SDA  | P9  |
 | SCL  | P10  |
+
+Mbed with MiCS5524
+
+| mbed  | MiCS5524 |
+| ------------- | ------------- |
+| VU  | 5V  |
+| GND  | GND  |
+| AO  | P18  |
+| EN  | GND  |
+
+Mbed with TPA2005D1 and speaker
+
+| mbed  | TPA2005D1 | Speaker |
+| ------------- | ------------- |-----|
+| GND  | pwr-(gnd), in-  |    |    
+| VOUT  | pwr+  |         |
+| P26  | in+  |    |
+|      | out+  |  +  |
+|      | out-  |  -  |
+
