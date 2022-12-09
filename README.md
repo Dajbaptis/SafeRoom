@@ -4,4 +4,7 @@ have easy access. If CO levels get past a certain threshold (>80ppm) an alarm wi
 on the LCD to bring CO levels back to a safe value.
 
 
-##Block Diagram
+# Block Diagram
+
+
+<img width="643" alt="Screen Shot 2022-12-08 at 11 08 02 PM" src="https://user-images.githubusercontent.com/120158161/206628431-186bf9c8-1bf0-4ee6-9707-2c9baa91ac02.png">
