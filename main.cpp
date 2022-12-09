@@ -1,5 +1,4 @@
- 
-#include "mbed.h"
+ #include "mbed.h"
 #include <string>
 #include <stdlib.h>
 #include "HTU21D.h"
