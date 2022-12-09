@@ -11,6 +11,7 @@ on the LCD to bring CO levels back to a safe value.
 
 
 # Wiring Diagram
+Mbed with LCD
 
 | mbed          | uLCD Header   | uLCD cable |          
 | ------------- | ------------- | ---------- |
@@ -18,3 +19,12 @@ on the LCD to bring CO levels back to a safe value.
 | TX = P28      | RX            | TX         |
 | RX = P27      | TX            | RX         |
 | P30           | Reset         | Reset      |
+
+Mbed with HTU21D-F
+
+| mbed  | HTU21D-F |
+| ------------- | ------------- |
+| VOUT  | 3.3V  |
+| GND  | GND  |
+| SDA  | P9  |
+| SCL  | P10  |
