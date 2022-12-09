@@ -14,12 +14,13 @@ on the LCD to bring CO levels back to a safe value. Click the image to see the S
 # Wiring Diagram
 Mbed with LCD
 
-| mbed          | uLCD Header   | uLCD cable |          
-| ------------- | ------------- | ---------- |
-| 5V = VU       | 5V            | 5V         | 
-| TX = P28      | RX            | TX         |
-| RX = P27      | TX            | RX         |
-| P30           | Reset         | Reset      |
+| mbed          | uLCD Header   | uLCD cable | External Power Supply |
+| ------------- | ------------- | ---------- | --------------------- |
+|               | 5V            | 5V         | 5V                    |
+| TX = P28      | RX            | TX         |                       |
+| RX = P27      | TX            | RX         |                       |
+| P30           | Reset         | Reset      |                       |
+| GND           | GND           | GND        | GND                   |
 
 Mbed with HTU21D-F
 
@@ -32,10 +33,10 @@ Mbed with HTU21D-F
 
 Mbed with MiCS5524
 
-| mbed  | MiCS5524 |
-| ------------- | ------------- |
-| VU  | 5V  |
-| GND  | GND  |
+| mbed  | MiCS5524 | External Power Supply |
+| ------------- | ------------- | --------- |
+|   | 5V  |  5V      |
+| GND  | GND  | GND  |
 | AO  | P18  |
 | EN  | GND  |
 
